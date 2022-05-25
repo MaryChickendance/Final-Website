@@ -1,0 +1,97 @@
+ 
+.writing {
+	color: #663399;
+	font-size: 1.4em;
+	font: Georgia;
+}
+.header{
+	color: coral;
+	font-size: 1.6em;
+	font: Georgia;
+}
+.image{
+	width: 450px;
+	height: 300px
+}
+.othimage{
+        width: 300;
+        height: 500;
+}
+  }
+ .body{
+         background-color: lightblue;
+ }
+        .topnav {
+  background-color: #B0C4DE;
+  overflow: hidden;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #dddS;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFFACD;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: coral;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: Georgia;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("https://codehs.com/uploads/830687002d5b0a7de50f8994e039b329"); }
+.img2 { background-image: url("https://codehs.com/uploads/5f143c7de062d08d0dba4496046575d4"); }
+.img3 { background-image: url("https://codehs.com/uploads/575a24070b50dfa8d978c995793c81d4"); }
+.img4 { background-image: url("https://codehs.com/uploads/f04452b00a5757a8b4c0c6b5c2515aa8"); }
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font: Georgia;
+  font-size: 24px;
+  border: 5px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
